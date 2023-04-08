@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnNode : MonoBehaviour{
 
     // En esta clase se usaba
-    // para NO hacer un spawn por todo el mapa, para asi no colocar uno por uno en el mapa
+    // para hacer un spawn por todo el mapa, y asi no colocar uno por uno en el mapa
 
 
    // int numToSpawn = 28;
