@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\MovementController.cs" />
      <Compile Include="Assets\NodeController.cs" />
      <Compile Include="Assets\PlayerController.cs" />

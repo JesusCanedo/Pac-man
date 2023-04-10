@@ -16,6 +16,8 @@ public class NodeController : MonoBehaviour{
     public GameObject nodeUp;
     public GameObject nodeDown;
     
+    public bool isWarpRightNode = false;
+    public bool isWarpLeftNode = false;
 
     /*RaycastHit2D es una estructura en Unity 
     que representa un resultado de un rayo lanzado en un plano 2D. 
@@ -34,7 +36,7 @@ public class NodeController : MonoBehaviour{
 
 
     // Start is called before the first frame update
-    void Start(){
+    void Awake(){
      // Disparamos un raycast hacia abajo para detectar si hay un nodo en esa dirección
         RaycastHit2D[] hitsDown;
         // Shot raycast(line) going down
